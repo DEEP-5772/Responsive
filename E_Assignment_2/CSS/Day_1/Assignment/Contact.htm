@@ -8,6 +8,78 @@
     <link rel="stylesheet" href="../../css.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Us</title>
+    <style>
+      .footer{
+      height: 50px; 
+      background-color: black;
+      color: white; 
+      padding-top: 12px; 
+      position: fixed; 
+      width: 100%; 
+      bottom: 0;   
+      text-align: center;
+    }
+
+    .footer1{
+      display: inline;
+    }
+
+    .button{
+      margin-left: 200px; 
+      margin-top: 20px;
+    }
+
+    .main{
+      width: 50%; 
+      margin-top: 100px; 
+      margin-left: 500px;
+    }
+
+    @media (max-width:1030px) {
+        .main{
+          margin-left: 400px;
+          margin-top: 300px;
+        }
+
+        .button{
+          margin-left: 170px;
+          margin-top: 30px;
+        }
+    }
+
+    @media (max-width:870px) {
+        .main{
+          margin-left:250px;
+          margin-top: 400px;
+        }
+
+        .button{
+          margin-left: 170px;
+          margin-top: 30px;
+        }
+
+        .sidebar{
+          height: 900px;
+        }
+    }
+
+    @media (max-width:650px) {
+        .main{
+          margin-left:50px;
+          margin-top: 900px;
+        }
+
+        .button{
+          position: absolute;
+          margin-left: 50px;
+          margin-top: 30px;
+        }
+
+        .main{
+          height: 600px;
+        }
+    }
+    </style>
 </head>
 <body>
 
@@ -102,7 +174,7 @@
       </nav>
 
       
-      <div style="width: 50%; margin-top: 100px; margin-left: 500px;">
+      <div class="main">
  
       <div class="form-group">
         <label for="exampleFormControlInput1" style="line-height: 40px;">Email address</label>
@@ -116,13 +188,13 @@
         <label for="exampleFormControlTextarea1" style="line-height: 40px;">Write your query here</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <button type="button" class="btn btn-success button">Submit</button>
     </div>
 
    
-    <button type="button" style="margin-left: 880px; margin-top: 20px;" class="btn btn-success">Submit</button>
 
   
-  <div class="footer" style="height: 50px; background-color: black; color: white; padding-top: 12px; margin-left: 400px;text-align: center; position: fixed; width: 100%; bottom: 0;"><div style="display: inline;">&copy;</div> Copy rights reserverd by Deep Patel @2023</div> 
+  <div class="footer"><div class="footer1">&copy;</div> Copy rights reserverd by Deep Patel @2023</div> 
 
 </body>
 </html>
