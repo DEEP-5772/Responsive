@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+}
+
+        .main {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            background-color: black;
+            color: white;
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 200px;
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+        }
+
+        .right {
+            border: 1px solid black;
+            height: auto;
+            width: 1000px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .right .header {
+            height: 50px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 32px;
+        }
+
+        table {
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+        }
+
+        .class1 {
+            margin-left: 20px;
+            padding-top: 20px;
+        }
+
+        .class2 {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .class3 {
+            padding-top: 20px;
+        }
+
+        .class4 {
+            margin-top: 20px;
+        }
+
+        .class5 {
+            padding-top: 20px;
+        }
+
+        .class6 {
+            margin-top: 20px;
+        }
+
+        .left-content {
+            display: inline-block;
+        }
+
+        .middle-content {
+            display: inline-block;
+            margin-left: 180px;
+            }
+
+        .right-content {
+            display: inline-block;
+            margin-left: 220px;
+        }
+
+        @media screen and (max-width: 1163px) {
+            .left{
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 920px) {
+            .middle-content .right-content {
+                display: block;
+                float: right;
+            }
+
+            .middle-content {
+            display: inline-block;
+            margin-left: 150px;
+            }
+
+        .right-content {
+            display: inline-block;
+            margin-left: 170px;
+        }
+    }
+
+        @media screen and (max-width: 700px) {
+            .middle-content {
+            display: inline-block;
+            margin-left: 70px;
+            }
+
+        .right-content {
+            display: inline-block;
+            margin-left:    70px;
+        }
+
+        }
+
+        @media screen and (max-width: 570px) {
+            .middle-content {
+            display: block;
+            margin: 20px;
+            }
+
+        .right-content {
+            display: block;
+            margin: 20px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img class="logo1" src="https://tse2.mm.bing.net/th/id/OIP.ce0ZIS26Owczwz5JFdVIogAAAA?pid=ImgDet&rs=1"
+            alt="Logo Image">
+        <div class="links">
+            <a href="../../../index.html">Home</a>
+            <a href="../../../HTML/Day_1/htmlpage.html">HTML</a>
+            <a href="../../CSS_Page.htm">CSS</a>
+            <a href="">Bootstrap</a>
+            <a href="">Javascript</a>
+            <a href="">Jquery</a>
+            <a href="">Mini Project</a>
+            <a href="">SQL</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <ul>
+                <li>Public</li><br>
+                <li>View</li><br>
+                <li>HR</li><br>
+                <li>Network Details</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <strong>Details</strong>
+            </div>
+
+            <div class="left-content">
+                <div class="class1">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class2">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="middle-content">
+                <div class="class3">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class4">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="right-content">
+                <div class="class5">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class6">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

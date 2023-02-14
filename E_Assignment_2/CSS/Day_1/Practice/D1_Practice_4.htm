@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css.css">
+    <title>Practice_4</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding:0;
+        }
+
+        .div1{
+            margin-left: 15px;
+        }
+        
+        .div2{
+            margin-left: 30px;
+        }
+
+        .div3{
+            margin-left: 45px;
+        }
+
+        .static{
+            position: static;
+            left: 50px;
+        }
+
+        .relative{
+            position: relative;
+            left: 100px;
+        }
+
+        .absolute{
+            position: absolute;
+            border: 2px solid black;
+            left: 100px;
+        }
+
+        .relative1{
+            position: relative;
+            border: 4px solid green;
+            height: 100px;
+            left: 10px;
+        }
+
+        .fix{
+            position: fixed;
+            line-height: 70px;
+        }
+
+        .auto {
+            height: 110px;
+            width: 110px;
+            background-color: pink;
+            overflow: auto;
+        }
+
+        .hiddenk{
+            height: 110px;
+            width: 110px;
+            background-color: pink;
+            overflow: hidden;
+        }
+
+        .scroll{
+            height: 110px;
+            width: 110px;
+            background-color: pink;
+            overflow:scroll;
+        }
+
+        .visible{
+            height: 110px;
+            width: 110px;
+            background-color: pink;
+            overflow:visible;
+        }
+
+        .clip{
+            height: 110px;
+            width: 110px;
+            background-color: pink;
+            overflow:clip;
+        }
+
+        .dis{
+            margin-left: 410px;
+        }
+
+        @media (max-width:770px) {
+            .dis{
+                margin-left: 250px;
+                margin-top: 500px;
+            }
+        }
+
+        @media (max-width:560px) {
+            .dis{
+                margin-left: 50px;
+                margin-top: 800px;
+            }
+        }
+    </style>
+</head>
+  <body>
+    <div class="header">
+        <img class="logo1" src="https://tse2.mm.bing.net/th/id/OIP.ce0ZIS26Owczwz5JFdVIogAAAA?pid=ImgDet&rs=1"
+            alt="Logo Image">
+        <div class="links">
+            <a href="../../../index.html">Home</a>
+            <a href="../../../HTML/Day_1/htmlpage.html">HTML</a>
+            <a href="../../CSS_Page.htm">CSS</a>
+            <a href="">Bootstrap</a>
+            <a href="">Javascript</a>
+            <a href="">Jquery</a>
+            <a href="">Mini Project</a>
+            <a href="">SQL</a>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="assignment">
+            <ul>
+                <li style="margin-left: 50px;">Day 1
+                    <ul>
+                        <li class="Assignment" style="list-style-type: circle;">Assignment
+                            <ul>
+                                <li class="assignment1"><a href="../../Day_1/Assignment/D1_Assignment_1.htm">Assignment 1</a></li>
+                                <li class="assignment1"><a href="../../Day_1/Assignment/D1_Assignment_2.htm">Assignment 2</a></li>
+                                <li class="assignment1"><a href="../../Day_1/Assignment/D1_Assignment_3.htm">Assignment 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="practice">Practice
+                            <ul>
+                                <li class="practice1"> <a href="../../Day_1/Practice/D1_Practice_1.htm">Practice 1</a></li>
+                                <li class="practice1"> <a href="../../Day_1/Practice/D1_Practice_2.htm">Practice 2</a></li>
+                                <li class="practice1"> <a href="../../Day_1/Practice/D1_Practice_3.htm">Practice 3</a></li>
+                                <li class="practice1"> <a href="../../Day_1/Practice/D1_Practice_4.htm">Practice 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    
+            <ul class="day2">
+                <li style="margin-left: 50px;">Day 2
+                    <ul>
+                        <li class="Assignment" style="list-style-type: circle;">Assignment
+                            <ul>
+                                <li class="assignment1"><a href="../../Day_2/Assignments/D2_Assignment_1.htm">Assignment 1</a></li>
+                                <li class="assignment1"><a href="../../Day_2/Assignments/D2_Assignment_2.htm">Assignment 2</a></li>
+                                <li class="assignment1"><a href="../../Day_2/Assignments/D2_Assignment_3.htm">Assignment 3</a></li>
+                                <li class="assignment1"><a href="../../Day_2/Assignments/D2_Assignment_4.htm">Assignment 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="practice">Practice
+                            <ul>
+                                <li class="practice1"> <a href="../../Day_2/Practice/D2_Practice_5.htm">Practice 5</a></li>
+                                <li class="practice1"> <a href="../../Day_2/Practice/D2_Practice_6.htm">Practice 6</a></li>
+                                <li class="practice1"> <a href="../../Day_2/Practice/D2_Practice_7.htm">Practice 7</a></li>
+                                <li class="practice1"> <a href="../../Day_2/Practice/D2_Practice_8.htm">Practice 8</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<div class="dis">
+    <div class="parent">
+      <p>This is parent div</p>
+      <div>
+          <p class="div1">This is first div inside parent div</p>
+          <div>
+              <p class="div2">This is second div inside parent div</p>
+              <div>
+                  <p class="div3">This is third div inside parent div</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <p class="static">This is a static line</p>
+  
+  <p class="relative">This is relative line </p>
+  
+  <div class="relative1">This is relative line with absolute line 
+      <div class="absolute"> This is absolute position line</div>
+  </p>
+
+</br></br></br></br></br></br>
+
+
+  <p class="auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla at suscipit saepe tenetur repellendus obcaecati harum unde, deleniti inventore similique exercitationem dolor explicabo repudiandae aliquam aliquid eaque dolorum beatae cupiditate.</p>
+
+  <p class="scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi labore amet, cupiditate accusantium quisquam sapiente exercitationem excepturi vitae veniam cum. Quasi facilis quo fuga rerum cumque commodi quidem ex.</p>
+
+  <p class="hiddenk">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla at suscipit saepe tenetur repellendus obcaecati harum unde, deleniti inventore similique exercitationem dolor explicabo repudiandae aliquam aliquid eaque dolorum beatae cupiditate.</p>
+
+
+
+  <p class="clip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla at suscipit saepe tenetur repellendus obcaecati harum unde, deleniti inventore similique exercitationem dolor explicabo repudiandae aliquam aliquid eaque dolorum beatae cupiditate.</p>
+
+  <p class="visible">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla at suscipit saepe tenetur repellendus obcaecati harum unde, deleniti inventore similique exercitationem dolor explicabo repudiandae aliquam aliquid eaque dolorum beatae cupiditate.</p>
+</div>
+  </body>
+</html>

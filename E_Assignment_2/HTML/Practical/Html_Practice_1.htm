@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practical_1_HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../htmlpage.css">
+  </head>
+  <style>
+    .class1{
+        list-style-type: square;
+         margin-left: 500px;
+    }
+
+    .class2{
+        list-style-type: disc;
+    }
+
+    .class3{
+        list-style-type: disc;
+    }
+
+    .class4{
+        list-style-type: disc;
+    }
+
+    @media screen and (max-width:845px) {
+        .class1{
+            margin-left: 300px;
+        }  
+    }
+
+    @media screen and (max-width:645px) {
+        .class1{
+            margin-left: 170px;
+        }  
+
+        .sidebar{
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width:505px) {
+        .class1{
+            margin-left: 20px;
+        }  
+
+        h2{
+            margin-top: 300px;
+            margin-left: 20px;
+        }
+    }
+
+    @media screen and (max-width:364px) {
+        .class1{
+            margin-left: -40px;
+        }  
+    }
+  </style>
+  <body>
+
+    <div class="header">
+        <img class="logo1" src="https://tse2.mm.bing.net/th/id/OIP.ce0ZIS26Owczwz5JFdVIogAAAA?pid=ImgDet&rs=1"
+            alt="Logo Image">
+        <div class="links">
+            <a href="../../index.html">Home</a>
+            <a href="../htmlpage.html">HTML</a>
+            <a href="../../CSS/CSS_Page.htm">CSS</a>
+            <a href="">Bootstrap</a>
+            <a href="">Javascript</a>
+            <a href="">Jquery</a>
+            <a href="">Mini Project</a>
+            <a href="">SQL</a>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="assignment">
+            <ul>
+                <li style="margin-left: 50px;">Day 3
+                    <ul>
+                        <li class="Assignment" style="list-style-type: circle;">Assignment
+                            <ul>
+                                <li class="assignment1"><a href="../Assignment/Html_Assignment_1.htm">Assignment 1</a></li>
+                                <li class="assignment1"><a href="../Assignment/Html_Assignment_2.htm">Assignment 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="practice">Practice
+                            <ul>
+                                <li class="practice1"> <a href="./Html_Practice_1.htm">Practice 1</a></li>
+                                <li class="practice1"> <a href="./Html_Practice_2.htm">Practice 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+  <h2>Different Departments</h2>
+  <ul class="class1">
+      <ul class="class2">
+          <li>Chair Man</li>
+          <ul class="class3">
+              <li>CEO</li>
+              <ul class="class4">
+                  <li>HR Department
+                      <ol>
+                          <li>Network Department</li>
+                          <li>Account Department</li>
+                          <li>Security Departmen</li>
+                      </ol>   
+                  </li>   
+                  </ul>
+              </ul>
+          </ul>
+      </ul>
+  </body>
+</html>
